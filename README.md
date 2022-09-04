@@ -9,7 +9,9 @@ dbname = "test1";
 
 
 SQL Database
+
 .php files
+
 index.html file
 
 On "index.html" file there must be a page with 3 input fields. One field saves "A" Database table Values (all data types), second saves "B"(only numerical) Database 
