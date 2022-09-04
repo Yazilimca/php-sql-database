@@ -1,0 +1,76 @@
+﻿<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" href="css.css">
+		<meta charset="utf-8">
+		<title> </title>
+	</head>
+	<style>
+		table, th, td {
+			border: 1px solid black;
+		}
+	</style>
+<body>
+
+	<form class="" action="test.php" method="post">
+		<div class="form">
+			<input type="text" name="data" placeholder="Write Anything" value="">
+			<input type="hidden" name="table" value="A">
+			<input type="hidden" name="type" value="insert">
+			<button type="submit" name="submit1">Send A</button>
+		</div>
+	</form>
+
+	<form class="" action="test.php" method="post">
+		<div class="form">
+			<input type="number" name="data" placeholder="Only Numeric" value="">
+			<input type="hidden" name="table" value="B">
+			<input type="hidden" name="type" value="insert">
+			<button type="submit" name="submit1">Send B</button>
+		</div>
+	</form>
+
+	<form class="" action="test.php" method="post">
+		<div class="form">
+			<input type="text" name="data" placeholder="Write Anything" value="">
+			<input type="hidden" name="table" value="C">
+			<input type="hidden" name="type" value="insert">
+			<button type="submit" name="submit1">Send C</button>
+		</div>
+	</form>
+	
+<hr>
+	<div style="text-align: center;">
+		<form style="margin-top: 20px;" method="post" action="test.php">
+			<button type="submit" style="background-color: #4CAF50;">List A Table (First Button)</button>
+			<input type="hidden" name="type" value="select">
+			<input type="hidden" name="button" value="1">
+		</form>
+
+		<form style="margin-top: 20px;" method="post" action="test.php">
+			<button type="submit" style="background-color: #008CBA;">List A, B, C Table (Second Button)</button>
+			<input type="hidden" name="type" value="select">
+			<input type="hidden" name="button" value="2">
+		</form>
+
+		<form style="margin-top: 20px;" method="post" action="test.php">
+			<button type="submit" style="background-color: #f44336;">List C, B Table (Third Button)</button>
+			<input type="hidden" name="type" value="select">
+			<input type="hidden" name="button" value="3">
+		</form>
+
+		<form style="margin-top: 20px;" method="post" action="test.php">
+			<button type="submit" style="background-color: #e7e7e7;">List B Table Ascending</button>
+			<input type="hidden" name="type" value="select">
+			<input type="hidden" name="button" value="4">
+		</form>
+
+		<form style="margin-top: 20px;" method="post" action="test.php">
+			<button type="submit" style="background-color: #555555;">List B Table Descending</button>
+			<input type="hidden" name="type" value="select">
+			<input type="hidden" name="button" value="5">
+		</form>
+	</div>
+
+</body>
+</html>
