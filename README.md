@@ -1,2 +1,8 @@
-# php-sql-database
-Entering and listing data in php sql database
+### DB Connection Crendtials ###
+
+servername = "localhost";
+username = "root";
+password = "";
+dbname = "test1";
+
+---------------------------------
